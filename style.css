@@ -915,7 +915,8 @@
   
   .iphone-pro-max .div {
     position: relative;
-    height: 1918px;
+    width: 100%;
+    height: 100%; 
     background-color: #ffffff;
     overflow: hidden;
   }
@@ -1575,7 +1576,7 @@
     position: absolute;
     top:0;
     right:0;
-    z-index: 0;
+    z-index: 1;
     background-color: rgba(0,0,0,0.5);
     display: flex;
     flex-direction: row;
@@ -1655,7 +1656,7 @@
     width: 26px;
     height: 26px;
     top: 23px;
-    left: 260px;
+    right: 10px;
   }
   
   }
